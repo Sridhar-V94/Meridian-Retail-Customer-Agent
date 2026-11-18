@@ -1,0 +1,32 @@
+{
+  "label": "Prerecorded synthetic results for offline demo (no model API was called)",
+  "cases": {
+    "C1": {
+      "label": "Prerecorded synthetic result",
+      "result": {
+        "draft_reply": "Thank you for contacting Meridian Retail about order MR-1042 (Jacket). I’m sorry to hear the zip was broken on arrival. Based on the information provided, damage reported within two days of delivery may be referred for human return review; this does not mean a refund has been approved. Because the delivery date was provided (2026-09-12) and the report was made promptly, this case can be referred for human review. This draft is for human review only and no refund has been approved, no message has been sent, and no records have been changed.",
+        "evidence_refs": ["P1", "P4"],
+        "missing_information": [],
+        "review_status": "READY_FOR_HUMAN_REVIEW"
+      }
+    },
+    "C2": {
+      "label": "Prerecorded synthetic result",
+      "result": {
+        "draft_reply": "Thank you for contacting Meridian Retail about order MR-1088 (Jacket). I’m sorry to hear the zip is broken. To determine whether the two-day rule can be applied, the delivery date is required. Could you please provide the delivery date for this order? This draft is for human review only and no refund has been approved, no message has been sent, and no records have been changed.",
+        "evidence_refs": ["P1", "P2", "P4"],
+        "missing_information": ["delivery_date"],
+        "review_status": "NEEDS_INFORMATION"
+      }
+    },
+    "C3": {
+      "label": "Prerecorded synthetic result",
+      "result": {
+        "draft_reply": "Thank you for contacting Meridian Retail about order MR-1126 (Shoes). I understand you asked for confirmation that your issue is resolved. Based on the supplied record, the issue status is open and the replacement request is still under review, so we cannot state that the issue is resolved at this time. This draft is for human review only and no refund has been approved, no message has been sent, and no records have been changed.",
+        "evidence_refs": ["P3", "P4"],
+        "missing_information": [],
+        "review_status": "BLOCKED"
+      }
+    }
+  }
+}
